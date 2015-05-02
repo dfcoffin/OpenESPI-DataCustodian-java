@@ -31,7 +31,7 @@
         </property>
         <property name="defaultViews">
         	<!-- TODO: Migrate to MappingJackson2JsonView -->
-            <bean class="org.springframework.web.servlet.view.json.MappingJacksonJsonView">
+            <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
                 <property name="extractValueFromSingleKeyModel" value="true" />
             </bean>
         </property>
